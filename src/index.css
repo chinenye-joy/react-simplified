@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  background-color: blue;
+  color: white;
+  padding: 15px 20px;
+  margin: 10px;
+  border-radius: 50px;
+
+}
+button:hover {
+  background-color: darkblue;
+}
+.profile-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.image {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+}
