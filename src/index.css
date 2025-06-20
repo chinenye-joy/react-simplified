@@ -26,3 +26,11 @@ button:hover {
   border-radius: 50%;
   object-fit: cover;
 }
+.fav {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
